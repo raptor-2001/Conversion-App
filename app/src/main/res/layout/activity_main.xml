@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#170808"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:width="250dp"
+        android:height="35dp"
+        android:text="Amount in Dollars"
+        android:textColor="@color/white"
+        android:textColorHint="#FBF6F6"
+
+
+        android:textSize="18sp" />
+
+
+    <EditText
+        android:id="@+id/price_dollars"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:width="250dp"
+        android:backgroundTint="#ffff"
+        android:inputType="number"
+
+        android:hint="@string/enter_price_in_dollars"
+        android:minHeight="48dp"
+        android:textColor="#F8F7F7"
+        android:textColorHint="#ccc" />
+
+    <TextView
+        android:id="@+id/price_rupees"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="45dp"
+        android:width="250dp"
+        android:height="35dp"
+        android:hint="Amount in Rupees"
+        android:textColor="@color/white"
+        android:textColorHint="#FBF6F6"
+
+
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/convert_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:text="@string/convert"
+
+
+        />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="248dp"
+        android:src="@drawable/atm_3"
+
+        />
+
+    <EditText
+        android:id="@+id/dev_name"
+        android:layout_width="485dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:text="Developer : Pratham Yadav 2020BTEIT00006"
+
+        android:textColor="@color/white"
+        android:textSize="12dp" />
+</LinearLayout>
